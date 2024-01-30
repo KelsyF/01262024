@@ -7,13 +7,13 @@
 <body>
     <div id="root">
         <button id="btn"> Click Me! </button>
-        <p id="demo"> DEMO </p>
+        <p id="demo"> Oh my, I just woke up. </p>
     </div>
     <script>
         const obj = {
-            msg: 'Hello World',
+            msg: 'Hello World!\n',
             hello:  () => {
-                document.getElementById('demo').innerHTML += this.msg;
+                return document.getElementById('demo').innerHTML += obj.msg;
             }
         };
         window.addEventListener('load', () => {
