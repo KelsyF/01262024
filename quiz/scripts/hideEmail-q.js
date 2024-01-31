@@ -8,4 +8,5 @@ window.onload = function hideEmail() {
     for (const email of emails) {
         // complete the loop
     }
+
 }
